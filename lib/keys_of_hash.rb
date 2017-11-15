@@ -3,7 +3,7 @@ class Hash
 #return array of all keys with values that match what's given
     array = []
     arguments.each do |value|
-      self.each |k, v|
+      self.each do |k, v|
         if value == v
           array << k
         end
