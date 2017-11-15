@@ -3,6 +3,8 @@ class Hash
 #return array of all keys with values that match what's given
     array = []
     arguments.each do |value|
+      binding.pry
+
       self.each do |k, v|
         binding.pry
         if value == v
