@@ -1,3 +1,4 @@
+require 'pry'
 class Hash
   def keys_of(*arguments)
 #return array of all keys with values that match what's given
