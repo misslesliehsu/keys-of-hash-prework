@@ -5,7 +5,6 @@ class Hash
     array = []
     arguments.each do |value|
       self.each do |k, v|
-        binding.pry
         if value == v
           array << k
         end
