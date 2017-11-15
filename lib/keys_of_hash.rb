@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments*)
+  def keys_of(*arguments)
 #return array of all keys with values that match what's given
     array = []
     arguments.each do |value|
